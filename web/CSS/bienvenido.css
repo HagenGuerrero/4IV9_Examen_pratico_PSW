@@ -16,8 +16,9 @@ body{
     justify-content: space-between;
     height: 100%;
     background-image: url(../img/bg2.jpg);   
-    background-size: 100% 140%;
-    background-attachment: fixed
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow-X: hidden; 
 }
 
 .titulo h1{
@@ -80,7 +81,7 @@ body{
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #000;
-    width: 96.764%;
+    width: 76.5rem;
     height: auto;
     padding: 30px;
     text-align: center;       
@@ -98,13 +99,12 @@ body{
 .menu{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: auto;
 }
 
 .menu div a{  
     text-decoration: none;
     color: #fff;
-    /* outline: none; */
     margin-left: -6rem;
     
 }
@@ -275,7 +275,6 @@ body{
 
 .btn:hover{
     margin: 1rem;
-    /* margin-left: -3rem; */
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
@@ -287,7 +286,6 @@ body{
 
 .btn{
     margin: 1rem;
-    /* margin-left: -3rem; */
     background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(20px);
@@ -353,7 +351,6 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    /* border-color: #000; */
     box-shadow: 0 0 5px #fff;
 }
 
