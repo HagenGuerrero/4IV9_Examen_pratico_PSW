@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Julius Sans One', sans-serif;
     color: #fff;
+    font-size: 15px;
 }
 
 html{
@@ -18,7 +19,6 @@ body{
     background-image: url(../img/bg3.jpg);   
     background-size: 100% 100%;
     background-attachment: fixed;
-    overflow-X: hidden; 
 }
 
 .bg{
@@ -28,6 +28,7 @@ body{
 }
 
 .titulo h1{
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -105,11 +106,6 @@ body{
     justify-content: space-around;
     width: 100%;
 }
-
-/* .menu div:hover{      
-    border-bottom: 2px solid #fff; 
-    padding: 10px;  
-} */
 
 .menu div a{  
     text-decoration: none;
@@ -201,9 +197,9 @@ body{
     justify-content: center;
     height: auto;
     width: auto;
+    
 
     margin: 3rem auto;
-    /* padding: 1rem; */
 
     background-color: rgba(0, 0, 0, 0.35);
     backdrop-filter: blur(5px);
@@ -221,13 +217,12 @@ body{
 
 .formulario-contenido{
     display: flex;
-    /* flex-direction: column; */
-    width: 100%;
+    width: 80rem;
     justify-content: space-evenly;
 }
 
 .perfil-img{
-    margin-left: -6rem;
+    display: flex;
     margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
@@ -237,6 +232,7 @@ body{
 }
 
 .imgperf{
+    margin-right: -7rem;
     width: 150px;
     border: 1px solid #fff;
 }
@@ -244,22 +240,8 @@ body{
 .formulario-n{
     margin-top: 5rem;
     margin-bottom: 5rem;
-    /* margin-left: 9rem; */
     flex-direction: column;
     display: flex;
-}
-
-.formulario-n1{
-    margin-left: 1rem;
-}
-
-.formulario-n2{
-    margin-left: -2rem;
-    margin-right: -2rem;
-}
-
-.formulario-n3{
-    margin-right: -13.2rem;
 }
 
 .productos{
@@ -269,12 +251,14 @@ body{
 }
 
 .productos p{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .productos-btn{
+    margin-left: 3rem;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
@@ -333,132 +317,31 @@ body{
     margin-top: 25px;
 
 }
-/* 
-.btn:hover{
-    margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;  
-    outline: none;
-    box-shadow: 0 0 5px #fff;
-}
 
-.btn{
-    margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px);
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    outline: none;
-}
-
-
-.btn-2:hover{
-    margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;  
-    outline: none;
-    box-shadow: 0 0 5px #fff;
-}
-
-.btn-2{
-    margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px);
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    outline: none;
-}
-
-.inputs{
-    width: 400px;
-    margin: 1rem;
-    margin-left: -3rem;
-    margin-right: -5rem;   
-    background-color: transparent;
-    border : transparent;
-    border-bottom : 1px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
-    padding: 10px;
-    cursor: text;
-    outline: none;
-}
 
 .inputs:hover{
-    width: 400px;
-    margin: 1rem;
-    margin-left: -3rem;
-    margin-right: -5rem;   
-    background-color: transparent;
-    border : transparent;
-    border-bottom : 1px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
-    padding: 10px;
-    cursor: text;
-    outline: none;
-}
-
-*/
-
-
-
-/* .inputs-1:hover{
-    width: 20rem;
-    margin: 1rem;
-    margin-left: -13rem;
-    margin-right: -1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #fff;
-    padding: 10px;
     cursor: pointer;
-    outline: none;
-    box-shadow: 0 0 5px #fff
-
 }
-
-.inputs-1{
-    width: 20rem;
-    margin: 1rem;
-    margin-left: -13rem;
-    margin-right: -1rem;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    outline: none;
-
-} */
 
 input{
+    width: auto;
     margin: 1rem;
-    /* margin-right: -5rem; */
+    margin-right: -10rem;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    /* border-radius: 5px; */
     color: #fff;
     padding: 10px;
     outline: none;
+    cursor: text;
+    
 
 }
 
 
 input:hover{
     margin: 1rem;
+    margin-right: -10rem;
     background: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 3px;
@@ -466,28 +349,27 @@ input:hover{
     padding: 10px;
     cursor: text;
     outline: none;
-    /* box-shadow: 0px 0px 200px 1px #fff; */
+    cursor: text;
+    
 
 }
 
 .boton-registro{
     margin: 1rem;
-    /* margin-right: -5rem; */
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    /* border-radius: 5px; */
     color: #fff;
     padding: 10px;
     cursor: pointer;
     outline: none;
+    
 
 }
 
 
 .boton-registro:hover{
     margin: 1rem;
-    /* margin-right: -5rem; */
     background: linear-gradient(to bottom, transparent,rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.2));;
     border-bottom: transparent;
     border-radius: 3px;
@@ -495,7 +377,6 @@ input:hover{
     padding: 10px;
     cursor: pointer;
     outline: none;
-    /* box-shadow: 0px 0px 200px 1px #fff; */
 
 }
 
@@ -507,6 +388,3 @@ input:hover::placeholder{
     color: rgba(255, 255, 255, 0.99); 
 }
 
-.inputs:hover{
-    cursor: pointer;
-}

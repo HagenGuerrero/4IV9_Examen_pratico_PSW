@@ -102,11 +102,6 @@ body{
     width: 100%;
 }
 
-/* .menu div:hover{      
-    border-bottom: 2px solid #fff; 
-    padding: 10px;  
-} */
-
 .menu div a{  
     text-decoration: none;
     color: #fff;
@@ -199,7 +194,6 @@ body{
     width: auto;
 
     margin: 3rem auto;
-    /* padding: 1rem; */
 
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);
@@ -217,7 +211,6 @@ body{
 
 .formulario-contenido{
     display: flex;
-    /* flex-direction: column; */
     width: 100%;
     justify-content: space-evenly;
 }
@@ -240,7 +233,6 @@ body{
 .formulario-n{
     margin-top: 5rem;
     margin-bottom: 5rem;
-    /* margin-left: 9rem; */
     flex-direction: column;
     display: flex;
 }
@@ -333,11 +325,9 @@ body{
 .boton-registro{
     width: 10rem;
     margin: 1rem;
-    /* margin-right: -5rem; */
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    /* border-radius: 5px; */
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -349,14 +339,12 @@ body{
 .boton-registro:hover{
     width: 10rem;
     margin: 1rem;
-    /* margin-right: -5rem; */
     background: linear-gradient(to bottom, transparent,rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.2));;
     border-bottom: transparent;
     border-radius: 3px;
     padding: 10px;
     cursor: pointer;
     outline: none;
-    /* box-shadow: 0px 0px 200px 1px #fff; */
 
 }
 

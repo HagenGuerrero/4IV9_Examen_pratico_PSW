@@ -36,7 +36,6 @@ body{
     margin: 1rem;
     width: 100%;
     flex: 1;
-    /* text-align: center; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -197,19 +196,3 @@ input{
 
 }
 
-
-
-
-
-
-
-
-/* .boton-registro{
-    width: 6rem;
-    margin: 2rem;
-}
-
-.boton-registro:hover{
-    width: 6rem;
-    margin: 2rem;
-} */
